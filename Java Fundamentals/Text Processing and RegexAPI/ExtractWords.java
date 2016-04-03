@@ -13,10 +13,5 @@ public class ExtractWords {
         while (matcher.find()) {
             System.out.print(matcher.group() + " ");
         }
-        //Scanner scan = new Scanner(System.in);
-        //String[] text = scan.nextLine().split("[ :,.')-_(!@#&$]+");   // I've tried and this way, but it takes
-        // for (int i = 0; i < text.length; i++) {                      // all upper letters... I don't know why o_O
-        //     System.out.print(text[i] + " ");
-        // }
     }
 }
